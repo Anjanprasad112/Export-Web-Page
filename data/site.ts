@@ -20,7 +20,7 @@ export const contact = {
     "https://maps.google.com/maps?q=Siddhivinayak%20Foreign%20Exports&t=m&z=14&output=embed&iwloc=near",
   mapContact:
     "https://maps.google.com/maps?q=Siddhivinayak%20Foreign%20Export&t=m&z=13&output=embed&iwloc=near",
-  whatsapp: "https://wa.me/+9176764580517"
+  whatsapp: "https://wa.me/+917676580517"
 };
 
 export const socialLinks = [
