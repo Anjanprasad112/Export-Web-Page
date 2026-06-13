@@ -35,8 +35,8 @@ export const socialLinks = [
 ];
 
 export const assets = {
-  logo: "/assets/s-09.png",
-  homeHero: "/assets/melissa-belanger-usE0kpV_yLo-unsplash.webp",
+  logo: "/assets/blenova-logo.png",
+  homeHero: "/assets/Coconut-image-2.jpg",
   storyBg: "/assets/devin-rajaram-X5ChCOu8CQg-unsplash.webp",
   certificatesHero:
     "/assets/g9d7210dd8c497df706f712210daf0c5a97891e924eec79c42baf4ddd7ac71b3a3fcc7d9290e12a606ec16b5ce3624ebb3fe58cd0844268975d28052724d6b3c7_1280-1463911.webp",
@@ -102,161 +102,38 @@ export type ProductCard = {
   detailHero: string;
   detailImage: string;
   desc: string;
+  proddesc?: string;
 };
 
 export const productCards: ProductCard[] = [
   {
-    slug: "grapes",
-    title: "Grapes",
-    image: "/assets/cengiz-ozarpat-WD5DErY3zWM-unsplash.webp",
-    detailHero: "/assets/gunter-hoffmann-LYaW8eq3mjs-unsplash.webp",
-    detailImage: "/assets/cengiz-ozarpat-WD5DErY3zWM-unsplash.webp",
-    desc: "Fresh grapes, sweet, crisp, and packed with nutrition."
+    "slug": "coconut",
+    "title": "Coconut",
+    "image": "/assets/louis-hansel-WUMxEBWvE64-unsplash.webp",
+    "detailHero": "/assets/louis-hansel-WUMxEBWvE64-unsplash.webp",
+    "detailImage": "/assets/ibrahim-rifath-ps2U8yCmzSY-unsplash.webp",
+    "desc": "Fresh, naturally grown coconuts sourced from India's finest farms.",
+    "proddesc": "Premium-quality coconuts sourced from trusted farms, known for their freshness, high water content, and excellent shelf life."
   },
   {
-    slug: "pomegranate",
-    title: "Pomegranate",
-    image: "/assets/nathalie-jolie-IBekPHDDFxQ-unsplash.webp",
-    detailHero: "/assets/jonas-renner-LOdAL10JejI-unsplash.webp",
-    detailImage: "/assets/nathalie-jolie-IBekPHDDFxQ-unsplash.webp",
-    desc:
-      "Our pomegranates are fresh, ruby red, and naturally sweet, packed with antioxidants and nutrients. Ideal for both fresh consumption and juice extraction, they are carefully selected and export-grade."
+    "slug": "green-chilli",
+    "title": "Green Chilli",
+    "image": "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp",
+    "detailHero": "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp",
+    "detailImage": "/assets/20250711_130618.webp",
+    "desc": "Fresh green chillies known for their vibrant color and natural heat.",
+    "proddesc": "Farm-fresh green chillies with natural pungency, vibrant color, and superior quality for culinary applications."
   },
   {
-    slug: "banana",
-    title: "Banana",
-    image: "/assets/krasimira-H-eN3BIHo3c-unsplash.webp",
-    detailHero: "/assets/scott-webb-Ar0QYv-qtw4-unsplash-1.webp",
-    detailImage: "/assets/krasimira-H-eN3BIHo3c-unsplash-1.webp",
-    desc:
-      "Naturally sweet and energy-rich, our bananas are freshly harvested, ideal for direct consumption and processing. Exported with care to ensure freshness and quality."
-  },
-  {
-    slug: "watermelon",
-    title: "Watermelon",
-    image: "/assets/endless-day-of-summer-JgXIo5g_IAc-unsplash.webp",
-    detailHero: "/assets/art-rachen-izi5AnlbRIA-unsplash.webp",
-    detailImage: "/assets/nik-SY_9tGuk98o-unsplash.webp",
-    desc:
-      "Juicy, refreshing, and naturally sweet, our watermelons are ideal for hot climates. Carefully selected and packed for export to ensure top quality and freshness."
-  },
-  {
-    slug: "semi-husk-coconut",
-    title: "Semi Husk Coconut",
-    image: "/assets/jonas-ducker-oD4pKP_uVXA-unsplash.webp",
-    detailHero: "/assets/louis-hansel-WUMxEBWvE64-unsplash.webp",
-    detailImage: "/assets/ibrahim-rifath-ps2U8yCmzSY-unsplash.webp",
-    desc:
-      "Our semi husked coconuts are mature, fresh, and high in water content. Ideal for export, they are carefully cleaned and packed to ensure long shelf life and quality on arrival."
-  },
-  {
-    slug: "lemon",
-    title: "Lemon",
-    image: "/assets/kevin-charit-K7rzWyTa_SY-unsplash.webp",
-    detailHero: "/assets/irina-3a6bRScDqLI-unsplash.webp",
-    detailImage: "/assets/victor-figueroa-huUI0y0ERMM-unsplash.webp",
-    desc:
-      "Fresh lemons with bright citrus flavor and natural aroma, selected and packed for reliable export freshness."
-  },
-  {
-    slug: "drumstick",
-    title: "Drumstick",
-    image: "/assets/20250711_133129.webp",
-    detailHero: "/assets/20250711_133117.webp",
-    detailImage: "/assets/20250711_133129.webp",
-    desc:
-      "Fresh, tender, and nutrient-rich, our drumsticks are perfect for culinary and health applications. Carefully harvested and packed to meet export standards."
-  },
-  {
-    slug: "garlic",
-    title: "Garlic",
-    image: "/assets/towfiqu-barbhuiya-BQqNSRPWcRA-unsplash.webp",
-    detailHero: "/assets/towfiqu-barbhuiya-BQqNSRPWcRA-unsplash.webp",
-    detailImage: "/assets/team-voyas-vIiye0QDryo-unsplash.webp",
-    desc:
-      "Our garlic is bold in flavor, rich in natural oils, and perfect for culinary and medicinal use. Cleaned and graded for export, ensuring long shelf life and premium quality."
-  },
-  {
-    slug: "onion",
-    title: "Onion",
-    image: "/assets/jeff-siepman-hnM2YmTeNAs-unsplash.webp",
-    detailHero: "/assets/jeff-siepman-hnM2YmTeNAs-unsplash.webp",
-    detailImage: "/assets/paul-magdas-SSIwIRCu7bM-unsplash.webp",
-    desc:
-      "Fresh, firm, and pungent, our onions are ideal for cooking and processing. Sourced from trusted farms, they are sorted, cleaned, and packed to meet global export standards."
-  },
-  {
-    slug: "suran",
-    title: "Suran",
-    image: "/assets/Screenshot_20250711_131125_Gallery.webp",
-    detailHero: "/assets/Screenshot_20250711_131111_Gallery.webp",
-    detailImage: "/assets/Screenshot_20250711_131125_Gallery.webp",
-    desc:
-      "Rich in fiber and nutrients, our suran is firm, fresh, and ideal for cooking and processing. Carefully cleaned and packed to ensure quality for export."
-  },
-  {
-    slug: "green-chilli",
-    title: "Green Chilli",
-    image: "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp",
-    detailHero: "/assets/mayur-more-F2iXfRkXn24-unsplash.webp",
-    detailImage: "/assets/vipul-borade-FvvgvCO-0gI-unsplash.webp",
-    desc:
-      "Spicy, fresh, and full of flavor, our green chillies are perfect for culinary use. Harvested at peak freshness and hygienically packed to retain quality during export."
-  },
-  {
-    slug: "ginger",
-    title: "Ginger",
-    image: "/assets/jason-leung-E2UZdY0dtgQ-unsplash.webp",
-    detailHero: "/assets/jason-leung-E2UZdY0dtgQ-unsplash.webp",
-    detailImage: "/assets/kelly-sikkema-1xe1Zq4RIZg-unsplash.webp",
-    desc:
-      "Aromatic, spicy, and packed with medicinal properties, our fresh ginger is ideal for cooking and health applications. Carefully cleaned and graded for international export quality."
-  },
-  {
-    slug: "turmeric",
-    title: "Turmeric",
-    image: "/assets/tamanna-rumee-RoGdv1kk5XM-unsplash.webp",
-    detailHero: "/assets/tamanna-rumee-RoGdv1kk5XM-unsplash.webp",
-    detailImage: "/assets/tamanna-rumee-fIt2bymQp4-unsplash.webp",
-    desc:
-      "Bright in color and rich in curcumin, our turmeric is ideal for culinary, medicinal, and cosmetic use. Sourced from quality farms and processed to meet export standards."
-  },
-  {
-    slug: "red-chilli",
-    title: "Red Chilli",
-    image: "/assets/md-nazmul-islam-nayeem-2FxTnDcMLjs-unsplash.webp",
-    detailHero: "/assets/md-nazmul-islam-nayeem-2FxTnDcMLjs-unsplash.webp",
-    detailImage: "/assets/vasanth-kedige-hD9hdDEP53A-unsplash.webp",
-    desc:
-      "Bold in color and heat, our dried red chillies are perfect for spice blends, cooking, and processing. Sun-dried and graded to ensure rich flavor and export quality."
-  },
-  {
-    slug: "coriander-seed",
-    title: "Coriander Seed",
-    image: "/assets/basata-coffee-03OM-Tv7_bY-unsplash.webp",
-    detailHero: "/assets/basata-coffee-03OM-Tv7_bY-unsplash.webp",
-    detailImage: "/assets/mockupo-nOyjlj-dse0-unsplash.webp",
-    desc:
-      "Warm, citrusy, and aromatic, our coriander seeds are perfect for cooking, spice blends, and medicinal use. Carefully cleaned and packed to ensure freshness and export quality."
-  },
-  {
-    slug: "blueberry",
-    title: "Blueberry",
-    image: "/assets/nadeykina-evgeniya-epeLqDQh2PE-unsplash.webp",
-    detailHero: "/assets/melissa-belanger-usE0kpV_yLo-unsplash-1.webp",
-    detailImage: "/assets/jeremy-ricketts-h4zs8fbybq4-unsplash.webp",
-    desc:
-      "Sweet, tangy, and rich in antioxidants, our fresh blueberries are ideal for snacking, baking, and health-focused products. Carefully packed to preserve freshness and meet global export standards."
-  },
-  {
-    slug: "cumin-seed",
-    title: "Cumin Seed",
-    image: "/assets/umesh-soni-CfryyqgO9zc-unsplash-1.webp",
-    detailHero: "/assets/umesh-soni-CfryyqgO9zc-unsplash-1.webp",
-    detailImage: "/assets/pradeep-javedar-Eg8MdIZUDcQ-unsplash.webp",
-    desc:
-      "Aromatic and flavorful, our cumin seeds are ideal for seasoning, spice blends, and medicinal use. Cleaned, sorted, and packed to maintain purity and export quality."
+    "slug": "red-chilli",
+    "title": "Red Chilli",
+    "image": "/assets/bulbul-ahmed-AHLXuatgJB0-unsplash.webp",
+    "detailHero": "/assets/bulbul-ahmed-AHLXuatgJB0-unsplash.webp",
+    "detailImage": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
+    "desc": "Premium red chillies delivering rich color, flavor, and spice.",
+    "proddesc": "Carefully selected red chillies offering vibrant color, rich flavor, and consistent heat for global markets."
   }
+ 
 ];
 
 export const certificates = [

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, MessageSquareMore } from "lucide-react";
 import { contact, type ProductCard } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
 
@@ -31,10 +31,10 @@ export function ProductDetailClient({ product }: { product: ProductCard }) {
           <article>
             <p className="mb-5 text-sm font-extrabold uppercase tracking-[0.2em] text-tealAccent">{t("detail.kicker")}</p>
             <h2 className="mb-7 font-serif text-4xl font-semibold text-ink md:text-5xl">{copy.title}</h2>
-            <p className="mb-8 text-lg font-medium leading-8 text-bodyText">{copy.desc}</p>
-            <a href={contact.whatsapp} target="_blank" rel="noreferrer" className="orange-button gap-2">
-              <MessageCircle className="h-5 w-5" />
-              {t("common.whatsapp")}
+            <p className="mb-8 text-lg font-medium leading-8 text-bodyText">{product.proddesc}</p>
+            <a href="/contact" rel="noreferrer" className="orange-button gap-2">
+              <MessageSquareMore  className="h-5 w-5" />
+              {t("common.enquiry")}
             </a>
           </article>
         </div>

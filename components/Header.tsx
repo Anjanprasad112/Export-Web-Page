@@ -30,8 +30,8 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className={`transition hover:text-orangeBrand ${
-                isActive(pathname, item.href) ? "text-orangeBrand" : "text-[#19202a]"
+              className={`transition hover:text-tealAccent ${
+                isActive(pathname, item.href) ? "text-tealAccent" : "text-[#19202a]"
               }`}
             >
               {t(item.key)}

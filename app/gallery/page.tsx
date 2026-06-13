@@ -6,18 +6,20 @@ import { galleryImages, productCards } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
 
 const gallerySlugByLabel: Record<string, string> = {
-  Grapes: "grapes",
-  Pomegranate: "pomegranate",
-  Banana: "banana",
-  Watermelon: "watermelon",
-  Garlic: "garlic",
-  Onion: "onion",
-  "Green chilli": "green-chilli",
-  Turmeric: "turmeric",
-  "Red chilli": "red-chilli",
-  "Coriander seed": "coriander-seed",
-  Blueberry: "blueberry",
-  "Cumin seed": "cumin-seed"
+  Coconut: "Coconut",
+  "Green Chilli": "green-chilli",
+  "Red chilli": "red-chilli"
+  // Grapes: "grapes",
+  // Pomegranate: "pomegranate",
+  // Banana: "banana",
+  // Watermelon: "watermelon",
+  // Garlic: "garlic",
+  // Onion: "onion",
+  // "Green chilli": "green-chilli",
+  // Turmeric: "turmeric",
+  // "Coriander seed": "coriander-seed",
+  // Blueberry: "blueberry",
+  // "Cumin seed": "cumin-seed"
 };
 
 export default function GalleryPage() {

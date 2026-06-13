@@ -84,15 +84,15 @@ export default function HomePage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-[8px] shadow-soft">
               <Image src={assets.homeHero} alt="Fresh blueberries" fill priority sizes="(min-width: 768px) 45vw, 90vw" className="object-cover" />
             </div>
-            <div className="absolute -bottom-8 -left-6 max-w-[250px] rounded-[8px] bg-white p-5 shadow-soft">
+            {/* <div className="absolute -bottom-8 -left-6 max-w-[250px] rounded-[8px] bg-white p-5 shadow-soft">
               <p className="text-4xl font-black text-tealAccent">17+</p>
               <p className="mt-2 text-sm font-bold text-ink">{t("home.productsSubtitle")}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
-      <section className="bg-white py-12">
+      {/* <section className="bg-white py-12">
         <div className="section-shell">
           <div className="grid gap-8 rounded-[8px] border border-[#dbe5dc] bg-[#f8faf6] p-6 md:grid-cols-[0.85fr_1.4fr] md:p-8">
             <div>
@@ -122,9 +122,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="bg-[#f8faf6] py-20">
+      <section className="bg-white py-20">
         <div className="section-shell">
           <div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end">
             <div>
@@ -137,7 +137,7 @@ export default function HomePage() {
             {featured.map((product) => {
               const copy = productText(product.slug, product);
               return (
-                <Link href={`/${product.slug}`} key={product.slug} className="group overflow-hidden rounded-[8px] bg-white shadow-sm">
+                <Link href={`/${product.slug}`} key={product.slug} className="group overflow-hidden rounded-[8px] bg-[#edf3ee] shadow-sm">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image src={product.image} alt={copy.title} fill sizes="(min-width: 1024px) 30vw, 90vw" className="object-cover transition duration-500 group-hover:scale-105" />
                   </div>
