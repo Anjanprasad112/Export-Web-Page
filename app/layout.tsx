@@ -6,8 +6,13 @@ import { FloatingWidgets } from "@/components/FloatingWidgets";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "Siddhivinayak Foreign Exports",
-  description: "Fresh fruits, vegetables, spices, and export quality produce from Mumbai, India."
+  title: "Blenova Exports Private Limited",
+  description: "Bengaluru-based fresh produce export company connecting local farms to global markets with a commitment to quality, sustainability, and customer satisfaction.",
+  icons: {
+    icon: "/assets/blenova-logo.png",
+    apple: "/assets/blenova-logo.png",
+    shortcut: "/assets/blenova-logo.png"
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

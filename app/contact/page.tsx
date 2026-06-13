@@ -116,7 +116,7 @@ export default function ContactPage() {
             </a>
           </div>
           <div className="map-frame min-h-[340px] overflow-hidden rounded-[8px] border border-[#cbd8cf] bg-slate-200 md:min-h-[480px]">
-            <iframe title="Siddhivinayak Foreign Export location" src={contact.mapContact} />
+            <iframe title="Blenova Exports Foreign Export location" src={contact.mapContact} />
           </div>
         </div>
       </section>

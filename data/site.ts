@@ -8,19 +8,16 @@ export const navItems = [
 ];
 
 export const contact = {
-  company: "Siddhivinayak Foreign Exports Private Limited",
+  company: "Blenova Exports Private Limited",
   address:
-    "B-12, Plot -172, Amrut, CHS LTD, RSC 50 Gorai RD, Behind Neelam Pride, Gorai Creek - 400092 Borivali West Mumbai",
-  phone: "+91 7738218238",
-  phoneCompact: "+917738218238",
-  email: "Info@Siddhivinayakforeignexim.com",
-  mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=Siddhivinayak%20Foreign%20Exports%20Private%20Limited%20Mumbai",
-  mapHome:
-    "https://maps.google.com/maps?q=Siddhivinayak%20Foreign%20Exports&t=m&z=14&output=embed&iwloc=near",
-  mapContact:
-    "https://maps.google.com/maps?q=Siddhivinayak%20Foreign%20Export&t=m&z=13&output=embed&iwloc=near",
-  whatsapp: "https://wa.me/+917676580517"
+    "1136, 1st main road Yeswanthpur, Yeswanthpur 560022, Bengaluru, Karnataka, India",
+  phone: "+91 9019295951",
+  phoneCompact: "+91 9019295951",
+  email: "blenovainfo@gmail.com",
+  mapsUrl: "https://maps.app.goo.gl/2gCEeYefbchvxNHg6",
+  mapHome: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.177617129455!2d77.55459347504187!3d13.024358587295907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d637133eb77%3A0x1a17c90a6c782ce1!2s1136%2C%201st%20Cross%20Rd%2C%20L%20N%20Colony%2C%20Yeswanthpur%2C%20Bengaluru%2C%20Karnataka%20560022!5e0!3m2!1sen!2sin!4v1781356304132!5m2!1sen!2sin",
+  mapContact: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.177617129455!2d77.55459347504187!3d13.024358587295907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d637133eb77%3A0x1a17c90a6c782ce1!2s1136%2C%201st%20Cross%20Rd%2C%20L%20N%20Colony%2C%20Yeswanthpur%2C%20Bengaluru%2C%20Karnataka%20560022!5e0!3m2!1sen!2sin!4v1781356304132!5m2!1sen!2sin",
+  whatsapp: "https://wa.me/+919740577146"
 };
 
 export const socialLinks = [
