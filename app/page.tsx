@@ -3,21 +3,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
-  Award,
   BadgeCheck,
-  BriefcaseBusiness,
   CheckCircle2,
   ExternalLink,
   Globe2,
   Headphones,
   Home,
-  Languages,
-  Mail,
   MapPin,
   ShieldCheck,
-  Truck
+  HandCoins,
+  CalendarCheck,
+  FileCheck2,
+  PackageCheck
 } from "lucide-react";
-import { languages } from "@/data/i18n";
 import { assets, contact, productCards } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
 
@@ -28,17 +26,37 @@ const strengths = [
   { icon: Headphones, title: "strength.support.title", text: "strength.support.text" }
 ];
 
-const whyChoose = [
-  { icon: Globe2, title: "why.integrity.title", text: "why.integrity.text" },
-  { icon: BadgeCheck, title: "why.innovation.title", text: "why.innovation.text" },
-  { icon: BriefcaseBusiness, title: "why.team.title", text: "why.team.text" },
-  { icon: Mail, title: "why.communication.title", text: "why.communication.text" }
-];
-
-const stats = [
-  { icon: Award, label: "home.stat1" },
-  { icon: Truck, label: "home.stat2" },
-  { icon: BadgeCheck, label: "home.stat3" }
+const whyChooseItems = [
+  {
+    icon: Globe2,
+    title: "why.trusted.title",
+    description: "why.trusted.description",
+  },
+  {
+    icon: BadgeCheck,
+    title: "why.quality.title",
+    description: "why.quality.description",
+  },
+  {
+    icon: HandCoins,
+    title: "why.pricing.title",
+    description: "why.pricing.description",
+  },
+  {
+    icon: CalendarCheck,
+    title: "why.supply.title",
+    description: "why.supply.description",
+  },
+  {
+    icon: FileCheck2,
+    title: "why.compliance.title",
+    description: "why.compliance.description",
+  },
+  {
+    icon: PackageCheck,
+    title: "why.logistics.title",
+    description: "why.logistics.description",
+  },
 ];
 
 export default function HomePage() {
@@ -152,14 +170,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="relative bg-cover bg-center py-20 text-white" style={{ backgroundImage: `url(${assets.storyBg})` }}>
-        <div className="absolute inset-0 bg-[#10211e]/80" />
-        <div className="section-shell relative z-10 grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
-          <h2 className="font-serif text-4xl font-semibold md:text-5xl">{t("home.storyTitle")}</h2>
-          <div className="grid gap-6 text-base font-medium leading-8 text-white/85 md:grid-cols-3">
-            <p>{t("home.storyP1")}</p>
-            <p>{t("home.storyP2")}</p>
-            <p>{t("home.storyP3")}</p>
+      <section
+        className="bg-[#edf3ee] py-16 sm:py-20 lg:py-24"
+        aria-labelledby="why-choose-us-title"
+      >
+        <div className="section-shell">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2
+              id="why-choose-us-title"
+              className="font-serif text-4xl font-semibold tracking-tight text-ink md:text-5xl"
+            >
+              {t("why.title")}
+            </h2>
+
+            <p className="mt-5 text-base leading-8 text-ink/75 md:text-lg">
+              {t("why.subtitle")}
+            </p>
+          </div>
+
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {whyChooseItems.map(({ icon: Icon, title, description }) => (
+              <article
+                key={title}
+                className="group h-full rounded-2xl border border-black/5 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md"
+              >
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-[#edf3ee] transition duration-300 group-hover:bg-tealAccent/10">
+                  <Icon
+                    aria-hidden="true"
+                    className="h-6 w-6 text-tealAccent"
+                  />
+                </div>
+
+                <h3 className="text-lg font-bold text-ink">
+                  {t(title)}
+                </h3>
+
+                <p className="mt-3 min-h-[72px] text-sm leading-6 text-ink/70 line-clamp-3">
+                  {t(description)}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-10 flex justify-center">
+            <Link href="/about" className="orange-button">
+              {t("common.readMore")}
+            </Link>
           </div>
         </div>
       </section>
@@ -181,30 +237,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-[#edf3ee] py-20">
-        <div className="section-shell grid gap-12 md:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-tealAccent">{t("home.storySmall")}</p>
-            <h2 className="mt-4 font-serif text-4xl font-semibold text-ink md:text-5xl">{t("home.plantsTitle")}</h2>
-            <p className="mt-6 leading-8">{t("home.plantsText1")}</p>
-            <p className="mt-4 leading-8">{t("home.plantsText2")}</p>
-            <Link href="/about" className="orange-button mt-8">
-              {t("common.readMore")}
-            </Link>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2">
-            {whyChoose.map(({ icon: Icon, title, text }) => (
-              <article key={title} className="rounded-[8px] bg-white p-6 shadow-sm">
-                <Icon className="mb-5 h-8 w-8 text-orangeBrand" />
-                <h3 className="mb-3 font-bold text-ink">{t(title)}</h3>
-                <p className="text-sm leading-6">{t(text)}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-tealAccent py-7 text-white">
+      {/* <section className="bg-tealAccent py-7 text-white">
         <div className="section-shell grid gap-6 md:grid-cols-3">
           {stats.map(({ icon: Icon, label }) => (
             <div key={label} className="flex items-center justify-center gap-5 border-white/30 md:border-r last:md:border-r-0">
@@ -214,6 +247,17 @@ export default function HomePage() {
               <span className="text-sm font-extrabold uppercase">{t(label)}</span>
             </div>
           ))}
+        </div>
+      </section> */}
+      <section className="relative bg-cover bg-center py-20 text-white" style={{ backgroundImage: `url(${assets.storyBg})` }}>
+        <div className="absolute inset-0 bg-[#10211e]/80" />
+        <div className="section-shell relative z-10 grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
+          <h2 className="font-serif text-4xl font-semibold md:text-5xl">{t("home.storyTitle")}</h2>
+          <div className="grid gap-6 text-base font-medium leading-8 text-white/85 md:grid-cols-3">
+            <p>{t("home.storyP1")}</p>
+            <p>{t("home.storyP2")}</p>
+            <p>{t("home.storyP3")}</p>
+          </div>
         </div>
       </section>
 
