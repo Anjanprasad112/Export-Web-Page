@@ -96,6 +96,7 @@ const en: Dictionary = {
   "contact.company": "Blenova Exports Private Limited",
   "contact.call": "Call Us",
   "contact.email": "Email Us",
+  "contact.phone": "Call Us",
   "contact.follow": "Follow Us",
   "contact.mapTitle": "Bengaluru Office Location",
   "contact.mapText": "Use the embedded map or open the location directly in Google Maps.",
@@ -104,8 +105,9 @@ const en: Dictionary = {
   "contact.name": "Name",
   "contact.namePlaceholder": "Full name",
   "contact.emailPlaceholder": "Email address",
+  "contact.phonePlaceholder": "Phone number",
   "contact.message": "Comment or Message",
-  "contact.messagePlaceholder": "Your message",
+  "contact.messagePlaceholder": "Tell us about your requirements - Product Specs, Quantity, Destination, Country...",
   "contact.submit": "Submit"
 };
 

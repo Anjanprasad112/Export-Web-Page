@@ -57,7 +57,7 @@ export default function ContactPage() {
                     target="_blank"
                     rel="noreferrer"
                     aria-label={item.label}
-                    className="transition hover:text-orangeBrand"
+                    className="transition hover:text-tealAccent"
                   >
                     <SocialIcon label={item.label as "Instagram" | "Whatsapp" | "Facebook" | "Youtube" | "Linkedin"} />
                   </a>
@@ -70,7 +70,7 @@ export default function ContactPage() {
             <h2 className="mb-10 font-serif text-3xl font-semibold leading-tight text-ink sm:text-4xl md:text-5xl">{t("contact.formTitle")}</h2>
             <form className="space-y-7">
               <label className="block text-base font-extrabold text-[#263548]">
-                {t("contact.name")} <span className="text-orangeBrand">*</span>
+                {t("contact.name")} <span className="text-tealAccent">*</span>
                 <input
                   type="text"
                   placeholder={t("contact.namePlaceholder")}
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 />
               </label>
               <label className="block text-base font-extrabold text-[#263548]">
-                {t("contact.email")} <span className="text-orangeBrand">*</span>
+                {t("contact.email")} <span className="text-tealAccent">*</span>
                 <input
                   type="email"
                   placeholder={t("contact.emailPlaceholder")}
@@ -86,7 +86,15 @@ export default function ContactPage() {
                 />
               </label>
               <label className="block text-base font-extrabold text-[#263548]">
-                {t("contact.message")} <span className="text-orangeBrand">*</span>
+                {t("contact.phone")} <span className="text-tealAccent">*</span>
+                <input
+                  type="tel"
+                  placeholder={t("contact.phonePlaceholder")}
+                  className="mt-2 w-full rounded-[6px] border border-slate-300 bg-[#f8faf6] px-5 py-4 text-base font-normal outline-none transition focus:border-tealAccent"
+                />
+              </label>
+              <label className="block text-base font-extrabold text-[#263548]">
+                {t("contact.message")} <span className="text-tealAccent">*</span>
                 <textarea
                   rows={6}
                   placeholder={t("contact.messagePlaceholder")}

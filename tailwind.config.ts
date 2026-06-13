@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         peach: "#f5f7f3",
-        orangeBrand: "#b8872f",
+        // orangeBrand: "#b8872f",
         navyFooter: "#10211e",
         ink: "#17211f",
         bodyText: "#52605a",
