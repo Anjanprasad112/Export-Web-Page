@@ -143,16 +143,7 @@ export const certificates = [
 ];
 
 export const galleryImages = [
-  { src: "/assets/cengiz-ozarpat-WD5DErY3zWM-unsplash.webp", label: "Grapes" },
-  { src: "/assets/nathalie-jolie-IBekPHDDFxQ-unsplash.webp", label: "Pomegranate" },
-  { src: "/assets/krasimira-H-eN3BIHo3c-unsplash.webp", label: "Banana" },
-  { src: "/assets/endless-day-of-summer-JgXIo5g_IAc-unsplash.webp", label: "Watermelon" },
-  { src: "/assets/towfiqu-barbhuiya-BQqNSRPWcRA-unsplash.webp", label: "Garlic" },
-  { src: "/assets/jeff-siepman-hnM2YmTeNAs-unsplash.webp", label: "Onion" },
+  {src: "/assets/jonas-ducker-oD4pKP_uVXA-unsplash.webp", label: "Coconut"},
   { src: "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp", label: "Green chilli" },
-  { src: "/assets/tamanna-rumee-RoGdv1kk5XM-unsplash.webp", label: "Turmeric" },
   { src: "/assets/md-nazmul-islam-nayeem-2FxTnDcMLjs-unsplash.webp", label: "Red chilli" },
-  { src: "/assets/basata-coffee-03OM-Tv7_bY-unsplash.webp", label: "Coriander seed" },
-  { src: "/assets/nadeykina-evgeniya-epeLqDQh2PE-unsplash.webp", label: "Blueberry" },
-  { src: "/assets/umesh-soni-CfryyqgO9zc-unsplash-1.webp", label: "Cumin seed" }
 ];

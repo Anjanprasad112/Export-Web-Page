@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { MessageCircle, MessageSquareMore } from "lucide-react";
-import { contact, type ProductCard } from "@/data/site";
+import { MessageSquareMore } from "lucide-react";
+import { type ProductCard } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
 
 export function ProductDetailClient({ product }: { product: ProductCard }) {

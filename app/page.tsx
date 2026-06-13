@@ -7,10 +7,6 @@ import {
   CheckCircle2,
   ExternalLink,
   Globe2,
-  Headphones,
-  Home,
-  MapPin,
-  ShieldCheck,
   HandCoins,
   CalendarCheck,
   FileCheck2,
@@ -64,7 +60,7 @@ const whyChooseItems = [
 ];
 
 export default function HomePage() {
-  const { language, setLanguage, t, productText } = useLanguage();
+  const { t, productText } = useLanguage();
   const featured = productCards.slice(0, 6);
 
   return (
