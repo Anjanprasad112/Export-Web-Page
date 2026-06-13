@@ -34,7 +34,7 @@ export const socialLinks = [
 export const assets = {
   logo: "/assets/blenova-logo.png",
   homeHero: "/assets/Coconut-image-2.jpg",
-  storyBg: "/assets/devin-rajaram-X5ChCOu8CQg-unsplash.webp",
+  storyBg: "/assets/background-home-img.png",
   certificatesHero:
     "/assets/g9d7210dd8c497df706f712210daf0c5a97891e924eec79c42baf4ddd7ac71b3a3fcc7d9290e12a606ec16b5ce3624ebb3fe58cd0844268975d28052724d6b3c7_1280-1463911.webp",
   founder: "/assets/20250625_154447_0000.webp",

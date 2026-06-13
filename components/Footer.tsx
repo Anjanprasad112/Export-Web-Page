@@ -55,12 +55,6 @@ export function Footer() {
             </div>
           </div>
 
-          <p className="mx-auto mt-12 max-w-5xl text-center text-sm font-semibold leading-7 text-white">
-            <strong>{t("common.delivery")}</strong> {t("common.deliveryText1")}
-            <br />
-            {t("common.deliveryText2")}
-          </p>
-
           <div className="mt-14 border-t border-white/15 pt-10 text-sm text-white">
             {t("common.copyright")}
           </div>

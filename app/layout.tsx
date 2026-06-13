@@ -6,7 +6,7 @@ import { FloatingWidgets } from "@/components/FloatingWidgets";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "Blenova Exports Private Limited",
+  title: "Blenova Exports LLP",
   description: "Bengaluru-based fresh produce export company connecting local farms to global markets with a commitment to quality, sustainability, and customer satisfaction.",
   icons: {
     icon: "/assets/blenova-logo.png",
