@@ -117,7 +117,7 @@ export const productCards: ProductCard[] = [
     "title": "Green Chilli",
     "image": "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp",
     "detailHero": "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp",
-    "detailImage": "/assets/20250711_130618.webp",
+    "detailImage": "/assets/20250711_130655.webp",
     "desc": "Fresh green chillies known for their vibrant color and natural heat.",
     "proddesc": "Farm-fresh green chillies with natural pungency, vibrant color, and superior quality for culinary applications."
   },
@@ -126,7 +126,7 @@ export const productCards: ProductCard[] = [
     "title": "Red Chilli",
     "image": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
     "detailHero": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
-    "detailImage": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
+    "detailImage": "/assets/vasanth-kedige-hD9hdDEP53A-unsplash.webp",
     "desc": "Premium red chillies delivering rich color, flavor, and spice.",
     "proddesc": "Carefully selected red chillies offering vibrant color, rich flavor, and consistent heat for global markets."
   }
