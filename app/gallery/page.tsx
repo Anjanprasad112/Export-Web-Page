@@ -6,7 +6,7 @@ import { galleryImages, productCards } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
 
 const gallerySlugByLabel: Record<string, string> = {
-  Coconut: "Coconut",
+  "Coconut": "Coconut",
   "Green Chilli": "green-chilli",
   "Red chilli": "red-chilli"
   // Grapes: "grapes",

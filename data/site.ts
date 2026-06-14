@@ -124,8 +124,8 @@ export const productCards: ProductCard[] = [
   {
     "slug": "red-chilli",
     "title": "Red Chilli",
-    "image": "/assets/bulbul-ahmed-AHLXuatgJB0-unsplash.webp",
-    "detailHero": "/assets/bulbul-ahmed-AHLXuatgJB0-unsplash.webp",
+    "image": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
+    "detailHero": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
     "detailImage": "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp",
     "desc": "Premium red chillies delivering rich color, flavor, and spice.",
     "proddesc": "Carefully selected red chillies offering vibrant color, rich flavor, and consistent heat for global markets."
@@ -145,5 +145,5 @@ export const certificates = [
 export const galleryImages = [
   {src: "/assets/jonas-ducker-oD4pKP_uVXA-unsplash.webp", label: "Coconut"},
   { src: "/assets/ajai-s-z7YIxZRhxzk-unsplash.webp", label: "Green chilli" },
-  { src: "/assets/md-nazmul-islam-nayeem-2FxTnDcMLjs-unsplash.webp", label: "Red chilli" },
+  { src: "/assets/bulbul-ahmed-ZzZwjg67uNQ-unsplash.webp", label: "Red chilli" },
 ];
