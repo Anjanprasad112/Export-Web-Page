@@ -102,45 +102,9 @@ export default function HomePage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-[8px] shadow-soft">
               <Image src={assets.homeHero} alt="Fresh blueberries" fill priority sizes="(min-width: 768px) 45vw, 90vw" className="object-cover" />
             </div>
-            {/* <div className="absolute -bottom-8 -left-6 max-w-[250px] rounded-[8px] bg-white p-5 shadow-soft">
-              <p className="text-4xl font-black text-tealAccent">17+</p>
-              <p className="mt-2 text-sm font-bold text-ink">{t("home.productsSubtitle")}</p>
-            </div> */}
           </div>
         </div>
       </section>
-
-      {/* <section className="bg-white py-12">
-        <div className="section-shell">
-          <div className="grid gap-8 rounded-[8px] border border-[#dbe5dc] bg-[#f8faf6] p-6 md:grid-cols-[0.85fr_1.4fr] md:p-8">
-            <div>
-              <p className="mb-3 inline-flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.16em] text-tealAccent">
-                <Languages className="h-5 w-5" />
-                {t("home.languageTitle")}
-              </p>
-              <p className="text-sm leading-6 text-bodyText">{t("home.languageSubtitle")}</p>
-            </div>
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
-              {languages.map((item) => (
-                <button
-                  key={item.code}
-                  type="button"
-                  aria-label={`Switch site language to ${item.label}`}
-                  onClick={() => setLanguage(item.code)}
-                  className={`rounded-[6px] border px-3 py-4 text-left transition ${
-                    language === item.code
-                      ? "border-tealAccent bg-tealAccent text-white"
-                      : "border-[#d8e1d8] bg-white text-ink hover:border-tealAccent"
-                  }`}
-                >
-                  <span className="block text-xs font-extrabold uppercase opacity-80">{item.short}</span>
-                  <span className="mt-1 block text-sm font-bold">{item.native}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section> */}
 
     <section className="relative overflow-hidden bg-white py-16 sm:py-20 lg:py-24">
       <div className="pointer-events-none absolute -left-24 top-16 h-72 w-72 rounded-full bg-tealAccent/10 blur-3xl" />
@@ -342,20 +306,6 @@ export default function HomePage() {
         </div>
       </div>
     </section>
-
-      {/* <section className="bg-tealAccent py-7 text-white">
-        <div className="section-shell grid gap-6 md:grid-cols-3">
-          {stats.map(({ icon: Icon, label }) => (
-            <div key={label} className="flex items-center justify-center gap-5 border-white/30 md:border-r last:md:border-r-0">
-              <span className="flex h-10 w-10 items-center justify-center rounded-[6px] bg-white text-tealAccent">
-                <Icon className="h-5 w-5" />
-              </span>
-              <span className="text-sm font-extrabold uppercase">{t(label)}</span>
-            </div>
-          ))}
-        </div>
-      </section> */}
-
 
       <section className="bg-[#dfe8e1] py-10 md:py-14">
         <div className="section-shell grid items-stretch gap-6 lg:grid-cols-[0.75fr_1.25fr]">

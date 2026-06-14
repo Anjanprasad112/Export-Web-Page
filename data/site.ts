@@ -21,13 +21,13 @@ export const contact = {
 };
 
 export const socialLinks = [
-  { label: "Instagram", href: "https://www.instagram.com/piyushpandeyexim/" },
+  { label: "Instagram", href: "https://www.instagram.com/" },
   { label: "Whatsapp", href: contact.whatsapp },
-  { label: "Facebook", href: "https://www.facebook.com/share/173VNCk7yJ/" },
-  { label: "Youtube", href: "https://youtube.com/@piyushpandey-eximsiddhivinayak?si=WG2szHtlyYcnLtCF" },
+  { label: "Facebook", href: "https://www.facebook.com/share/" },
+  { label: "Youtube", href: "https://youtube.com/" },
   {
     label: "Linkedin",
-    href: "https://www.linkedin.com/in/piyush-pandey-139a86127?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    href: "https://www.linkedin.com/"
   }
 ];
 
@@ -37,8 +37,8 @@ export const assets = {
   storyBg: "/assets/background-home-img.png",
   certificatesHero:
     "/assets/g9d7210dd8c497df706f712210daf0c5a97891e924eec79c42baf4ddd7ac71b3a3fcc7d9290e12a606ec16b5ce3624ebb3fe58cd0844268975d28052724d6b3c7_1280-1463911.webp",
-  founder: "/assets/20250625_154447_0000.webp",
-  cofounder: "/assets/IMG-20250516-WA001422.webp"
+  partner1: "/assets/vaishak-img2.png",
+  partner2: "/assets/bharath-img.jpeg"
 };
 
 export const homeProducts = [
