@@ -1,6 +1,6 @@
-# Siddhivinayak Foreign Exports Website
+# Blenova Foreign Exports Website
 
-Next.js + Tailwind CSS website for Siddhivinayak Foreign Exports Private Limited.
+Next.js + Tailwind CSS website for Blenova Exports LLP.
 
 ## Local Development
 

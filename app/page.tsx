@@ -372,7 +372,7 @@ export default function HomePage() {
             </a>
           </div>
           <div className="map-frame min-h-[320px] overflow-hidden rounded-[8px] border border-[#cbd8cf] bg-slate-200 md:min-h-[420px]">
-            <iframe title="Siddhivinayak Foreign Exports map" src={contact.mapHome} />
+            <iframe title="Blenova Exports map" src={contact.mapHome} />
           </div>
         </div>
       </section>

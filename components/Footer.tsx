@@ -22,7 +22,7 @@ export function Footer() {
         <div className="border-t border-white/15 pt-12">
           <div className="grid gap-10 md:grid-cols-[1.1fr_0.8fr_2fr] md:gap-16">
             <div>
-              <Image src={assets.logo} width={210} height={130} alt="Siddhivinayak Foreign Exports" />
+              <Image src={assets.logo} width={210} height={130} alt="Blenova Exports" />
             </div>
             <div>
               <h2 className="mb-8 text-2xl font-extrabold text-white">{t("common.quickLinks")}</h2>

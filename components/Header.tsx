@@ -21,8 +21,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-[#d8e1d8] bg-[#f8faf6]/95 backdrop-blur">
       <div className="mx-auto flex h-[74px] max-w-7xl items-center justify-between px-5 md:h-[92px] md:px-10">
-        <Link href="/" aria-label="Siddhivinayak Foreign Exports home" className="shrink-0">
-          <Image src={assets.logo} width={112} height={70} alt="Siddhivinayak Foreign Exports" priority className="h-auto w-24 md:w-28" />
+        <Link href="/" aria-label="Blenova Exports home" className="shrink-0">
+          <Image src={assets.logo} width={112} height={70} alt="Blenova Exports" priority className="h-auto w-24 md:w-28" />
         </Link>
 
         <nav className="hidden items-center gap-8 text-[14px] font-semibold md:flex">

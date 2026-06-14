@@ -10,7 +10,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const product = productCards.find((item) => item.slug === params.slug);
   if (!product) return {};
   return {
-    title: `${product.title} - Siddhivinayak Foreign Exports`,
+    title: `${product.title} - Blenova Exports`,
     description: product.desc
   };
 }
