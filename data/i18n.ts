@@ -31,7 +31,7 @@ const en: Dictionary = {
   "common.delivery": "Delivery Policy:",
   "common.deliveryText1": "For online courses, access will be delivered to your registered email within 1-6 hour of successful payment.",
   "common.deliveryText2": "For offline batches, admission confirmation and batch details will be shared via email or WhatsApp within 5-10 days of purchase.",
-  "common.copyright": "©2025 Copyright All Right Reserved.",
+  "common.copyright": "©2026 Copyright All Right Reserved.",
   "home.kicker": "Global Produce Exporters",
   "home.title": "Exporting Freshness from India’s Best Fields",
   "home.subtitle": "Connecting Indian farmers and manufacturers to global markets with quality, reliable sourcing, compliant packing, documentation, and logistics.",
