@@ -21,9 +21,9 @@ import { useLanguage } from "@/components/LanguageProvider";
 
 const strengths = [
   { icon: Truck, title: "strength.trusted.title", text: "strength.trusted.text" },
-  { icon: Network, title: "strength.shipping.title", text: "strength.shipping.text" },
+  { icon: Route, title: "strength.shipping.title", text: "strength.shipping.text" },
   { icon: UserRoundCheck, title: "strength.quality.title", text: "strength.quality.text" },
-  { icon: Route, title: "strength.support.title", text: "strength.support.text" }
+  { icon: Network, title: "strength.support.title", text: "strength.support.text" }
 ];
 
 const whyChooseItems = [
